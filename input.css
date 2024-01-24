@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bars {
+  @apply flex flex-col items-center max-w-9;
+}
+
+.hovering {
+  @apply hover:text-Cyan-color hover:cursor-pointer duration-300;
+}
